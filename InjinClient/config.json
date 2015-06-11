@@ -1,0 +1,10 @@
+﻿{
+    "_Interfaces.IFoo": {
+        "AssemblyName": "A",
+        "TypeName": "A.AFoo"
+    },
+    "Interfaces.IFoo": {
+        "AssemblyName": "B",
+        "TypeName": "B.BFoo"
+    }
+}

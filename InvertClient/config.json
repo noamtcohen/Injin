@@ -1,9 +1,9 @@
 ﻿{
-    "_Interfaces.IFoo": {
+    "Interfaces.IFoo": {
         "AssemblyName": "A",
         "TypeName": "A.AFoo"
     },
-    "Interfaces.IFoo": {
+    "_Interfaces.IFoo": {
         "AssemblyName": "B",
         "TypeName": "B.BFoo"
     }

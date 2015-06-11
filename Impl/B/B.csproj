@@ -50,8 +50,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>mkdir "$(SolutionDir)InjinClient\bin\$(ConfigurationName)\"
-copy /Y "$(ProjectDir)bin\$(ConfigurationName)\$(TargetFileName)" "$(SolutionDir)InjinClient\bin\$(ConfigurationName)\$(TargetFileName)"</PostBuildEvent>
+    <PostBuildEvent>mkdir "$(SolutionDir)InvertClient\bin\$(ConfigurationName)\"
+
+
+copy /Y "$(ProjectDir)bin\$(ConfigurationName)\$(TargetFileName)" "$(SolutionDir)InvertClient\bin\$(ConfigurationName)\$(TargetFileName)"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
